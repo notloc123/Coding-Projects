@@ -1,0 +1,27 @@
+#### Little Professor
+
+This project was made to iminate the addition mode of the Little Professor math problem toy. This function will get the level from the user and will generate 10 math problems within a defined range based on what difficulty was chosen. 
+The user will get three attempts to answer the question and will see and "EEE" displayed each time the answer is incorrect. 
+After the third incorrect attempt, it will display "EEE" and then the solution to the problem. After each correct problem a point is awarded. At the end of the set of 10, the user's score will be displayed. 
+This program only deals with whole numbers and there are no fractions or decimals.
+
+### main
+
+Calls the other functions and will print the score and then exit the program.
+
+### get_level
+
+Gets the user's desired difficulty level for the math problems. The levels are 1, 2, or 3.
+
+### generate_integer
+
+Using the chosen difficulty, will generate two random integers within a set range.
+
+### round
+
+This function keeps track of the current game the user is on and will keep count of how many rounds the user has made and if the answer is correct.
+
+### games
+
+games keeps track of the total games and the total score of the user.
+It is also responsible for taking the results of generate_integer and round and determining if the user gains a point.
